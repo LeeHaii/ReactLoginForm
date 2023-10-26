@@ -10,3 +10,79 @@
   font-weight: 700;
 }
 
+.loginForm{
+  margin: auto;
+  width: 50%;
+}
+
+.chit{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  min-width: 260px;
+  background-color: white;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+
+
+.TwoScreenButton{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ScreenButton{
+  padding: 10px 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(245, 245, 245);
+}
+
+.ScreenButton:hover{
+  background-image: linear-gradient(45deg, rgb(83, 83, 233),rgb(194, 76, 194));
+  transition: background-image 2s;
+}
+
+.Input{
+  height: 30px;
+  border-radius: 5px;
+  border: solid rgb(219, 219, 219);
+  border-width: 1px;
+}
+
+.ForgotPassword{
+  position: relative;
+  display: flex;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.pass{
+  position: relative;
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+}
+
+.LoginButton{
+  padding: 10px;
+  background-image: linear-gradient(45deg, rgb(83, 83, 233),rgb(194, 76, 194));
+  border: none;
+  border-radius: 5px;
+
+}
+
+.LoginButton:hover{
+  background-image: linear-gradient(135deg, rgb(83, 83, 233),rgb(194, 76, 194));
+  cursor: pointer;
+}
+
+.SignupNow{
+  font-size: 14px;
+}
+
+
