@@ -12,7 +12,8 @@ function App() {
   let LoginScreen = document.getElementById('LoginScreenButton')
   let SignupScreen = document.getElementById('SignupScreenButton')
 
-  let user, password 
+  let user = 'otry'
+  let pass = '123'
 
   const handleLoginClick = () => {
     setCheck(false);
