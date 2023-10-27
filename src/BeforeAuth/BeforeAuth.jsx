@@ -11,9 +11,6 @@ function BeforeAuth() {
   let LoginScreen = document.getElementById('LoginScreenButton')
   let SignupScreen = document.getElementById('SignupScreenButton')
 
-  let user = 'otry'
-  let pass = '123'
-
   const handleLoginClick = () => {
     setCheck(false);
     setName("Login");
